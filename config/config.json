@@ -1,0 +1,20 @@
+{
+  "env": {
+    "local": {
+      "is_local": true
+    }
+
+  },
+  "app_urls": {
+    "swag_labs": "https://www.terminalx.com/"
+  },
+  "user_info": {
+    "default_name": "Checking2@percepti.co",
+    "default_password": "Checking2@percepti.c"
+  },
+  "browsers": {
+    "chrome": "chrome",
+    "firefox": "firefox",
+    "edge": "edge"
+  }
+}
