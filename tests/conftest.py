@@ -131,11 +131,6 @@ def pytest_collection_modifyitems(items):
     }
     logger.info('Test information including params:\n{}'.format(json.dumps(test_info, indent=2)))
 
-    for item in items:
-        # Check if the test uses the para_bank_api fixture
-        if 'pet_store_api' in getattr(item, 'fixturenames', []):
-            item.add_marker('api')
-
 
 @pytest.fixture
 def login_data(request):
